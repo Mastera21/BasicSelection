@@ -139,7 +139,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AK47.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="AWP.cpp" />
     <ClCompile Include="BasicSelection.cpp" />
+    <ClCompile Include="ClientInput.cpp" />
+    <ClCompile Include="CT.cpp" />
+    <ClCompile Include="Glock.cpp" />
+    <ClCompile Include="Karambit.cpp" />
+    <ClCompile Include="M4.cpp" />
+    <ClCompile Include="M416.cpp" />
+    <ClCompile Include="M9.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="T.cpp" />
+    <ClCompile Include="USP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AK47.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="AWP.h" />
+    <ClInclude Include="ClientInput.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="CT.h" />
+    <ClInclude Include="FirstGun.h" />
+    <ClInclude Include="Glock.h" />
+    <ClInclude Include="Karambit.h" />
+    <ClInclude Include="Knives.h" />
+    <ClInclude Include="M4.h" />
+    <ClInclude Include="M416.h" />
+    <ClInclude Include="M9.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="SecondGun.h" />
+    <ClInclude Include="SelectionInfo.h" />
+    <ClInclude Include="T.h" />
+    <ClInclude Include="USP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

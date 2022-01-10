@@ -17,7 +17,7 @@ std::string Player::printInfo() const {
 	result += "1.First slot: " + firstSlot();
 	result += "2.Second slot: " + secondSlot();
 	result += "3.Third slot: " + thirdSlot();
-	result += "4.Player side is: " + sideInfo();
+	result += "4.Player is: " + sideInfo();
 
 	return result;
 }

@@ -13,10 +13,141 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Header Files\client">
+      <UniqueIdentifier>{2072c3c7-df52-4d39-99f8-afe01a9668e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\firstSlot">
+      <UniqueIdentifier>{9a155307-efe6-4e71-8150-b6e88fb34a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\secondSlot">
+      <UniqueIdentifier>{6f6e949e-fc9c-46ff-bed8-12c303b90067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\thirdSlot">
+      <UniqueIdentifier>{bdd90d91-5c1b-48a7-8a32-aeba2c07e470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\player">
+      <UniqueIdentifier>{7633ac50-ebb8-4bee-8a2f-5cda365881f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client">
+      <UniqueIdentifier>{919483ac-329f-48ba-878a-15b6268c4c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\firstSlot">
+      <UniqueIdentifier>{87ffceab-6f9a-47a4-b878-02831824f0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\secondSlot">
+      <UniqueIdentifier>{eb49f90b-c3b9-4dce-ad6b-fca3a8ba78ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thirdSlot">
+      <UniqueIdentifier>{1b5c6958-3027-44eb-9764-a02befa6552d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\player">
+      <UniqueIdentifier>{b31288a3-5267-443f-a420-64b6c67cd05c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{10503ec4-4332-4117-8994-74bd971760fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{cb421e9c-82b1-4e8a-b477-403e576269ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicSelection.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="AK47.cpp">
+      <Filter>src\firstSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="M4.cpp">
+      <Filter>src\firstSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="AWP.cpp">
+      <Filter>src\firstSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="M416.cpp">
+      <Filter>src\firstSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Glock.cpp">
+      <Filter>src\secondSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="USP.cpp">
+      <Filter>src\secondSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Karambit.cpp">
+      <Filter>src\thirdSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="M9.cpp">
+      <Filter>src\thirdSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>src\player</Filter>
+    </ClCompile>
+    <ClCompile Include="CT.cpp">
+      <Filter>src\player</Filter>
+    </ClCompile>
+    <ClCompile Include="T.cpp">
+      <Filter>src\player</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientInput.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FirstGun.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondGun.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Knives.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="AK47.h">
+      <Filter>Header Files\firstSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="M4.h">
+      <Filter>Header Files\firstSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="AWP.h">
+      <Filter>Header Files\firstSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="M416.h">
+      <Filter>Header Files\firstSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Glock.h">
+      <Filter>Header Files\secondSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="USP.h">
+      <Filter>Header Files\secondSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Karambit.h">
+      <Filter>Header Files\thirdSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="M9.h">
+      <Filter>Header Files\thirdSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="CT.h">
+      <Filter>Header Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="T.h">
+      <Filter>Header Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientInput.h">
+      <Filter>Header Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionInfo.h">
+      <Filter>Header Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
