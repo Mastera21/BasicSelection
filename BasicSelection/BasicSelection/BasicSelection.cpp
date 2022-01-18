@@ -12,5 +12,6 @@ int main() {
 	Application app;
 	app.run();
 
+	std::system("PAUSE");
 	return 0;
 }

@@ -4,6 +4,7 @@
 
 //C++ system headers
 #include <iostream>
+#include <cstdlib>
 //Other libraries headers
 
 //Own components headers
@@ -32,7 +33,14 @@ std::string checkForInvalidInput(std::string& input, const std::vector<std::stri
 	}
 	return input;
 }
-
+void ammoCheck(int& ammo) {
+	while (std::cin.fail()) {
+		std::cout << "Input is invalid. Plese select numbers\n";
+		std::cin.clear();
+		std::cin.ignore(256, '\n');
+		std::cin >> ammo;
+	}
+}
 void ClientInput::init() {
 	std::cout << "                                           WELCOME TO SELECTION ON GUNS.                                                \n";
 	std::cout << "                                           YOU HAVE FOUR SLOTS TO FILLED                                                 \n";
@@ -68,6 +76,7 @@ void ClientInput::init() {
 	int ammo = 0;
 	std::cin >> ammo;
 	std::cout << "\n";
+	ammoCheck(ammo);
 	if (input == "AK47" || input == "M4" || input == "AWP" || input == "M416") {
 		if (input == "AK47") {
 			_firstGun = new AK47(ammo);
@@ -98,6 +107,7 @@ void ClientInput::init() {
 	std::cout << "Ammo: ";
 	std::cin >> ammo;
 	std::cout << "\n";
+	ammoCheck(ammo);
 	if (input == "Glock" || input == "USP") {
 		if (input == "Glock") {
 			_secondGun = new Glock(ammo);
@@ -119,7 +129,6 @@ void ClientInput::init() {
 	std::cout << "\n";
 	//check for invalid input
 	input = checkForInvalidInput(thirdSlotInput, gunThirdSlot);
-
 	if (input == "M9" || input == "Karambit") {
 		if (input == "M9") {
 			_knives = new M9();
@@ -141,7 +150,6 @@ void ClientInput::init() {
 	std::cout << "\n";
 	//check for invalid input
 	input = checkForInvalidInput(sideInput, side);
-
 	std::cout << "Total information:\n";
 	if (sideInput == "CT" || sideInput == "T") {
 		if (sideInput == "CT") {
